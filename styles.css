@@ -21,6 +21,25 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-oscura{
+    background-color: black; 
+    color: aliceblue;
+}
+.seccion-clara{
+    background-color: aliceblue; 
+    color: black;
+}
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+.seccion-texto{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+
 /* Seccion hero */
 .hero{
     background-color: beige;
@@ -40,6 +59,63 @@ h1{
     font-size: 1.5rem;
     color: darkgrey;
 }
+
+
+/* Sobre mi */
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #6c6b6b4d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: black;
+}
+
+.experiencia .row div{
+    min-height: 180px;
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color: chartreuse;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+
 
 @media screen and (max-width: 767px){
     .navbar-brand{
